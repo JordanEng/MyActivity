@@ -12,7 +12,7 @@ public class About extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
         {
-            TextView v = (TextView) findViewById(R.id.text_target);
+            TextView v = (TextView) findViewById(R.id.textView);
             v.setText(Html.fromHtml(getString(R.string.about_text)));
             v.setMovementMethod(LinkMovementMethod.getInstance());
             v.setLinksClickable(true);
