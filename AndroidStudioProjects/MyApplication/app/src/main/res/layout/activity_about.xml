@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:scrollbars="vertical"
     android:fitsSystemWindows="true"
     tools:context="com.example.ros_jheng.myapplication.About">
 
@@ -25,7 +26,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/textView"
-        android:text="@string/about_text"/>
+        android:text="@string/about_text"
+        android:textColor="#000000"
+        android:visibility="visible"
+        android:enabled="true" />
 
     <include layout="@layout/content_about" />
 
